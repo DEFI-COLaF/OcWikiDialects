@@ -1,0 +1,11 @@
+prep_name: "lapduen"
+
+prep_options:
+  lowercase: true
+  strip_accents: "ascii"
+  remove_punctuation: true
+  norm_dup_chars: true
+  mask_urls: "remove"
+  mask_emails: "remove"
+  mask_numbers: "remove"
+  stopwords_list: null

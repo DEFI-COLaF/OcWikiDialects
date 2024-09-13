@@ -1,0 +1,11 @@
+emb_model_path: "models/pretrained/cc.oc.300.bin"
+vectors_path: "vectors/vectors_cc-oc.vec"
+
+model_params:
+  dim: 300
+  epoch: 20
+  bucket: 200000
+  loss: 'hs'
+
+variable_params:
+  ngrams: [1]

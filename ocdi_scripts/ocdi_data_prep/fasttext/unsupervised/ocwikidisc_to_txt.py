@@ -1,0 +1,1 @@
+/home/onedey/Documents/Corpora/Occitan/OcWikiDisc/ocwikidisc_to_txt.py
