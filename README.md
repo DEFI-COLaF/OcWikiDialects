@@ -1,21 +1,39 @@
 # OcWikiDialects: A Wikipedia Dataset with Rich Metadata for Occitan Dialect Identification
 
-This repository contains the code, dataset, models and analyses described in the following paper (accepted at VarDial 2026):
+This repository contains the code, dataset, models and analyses described 
+in the following [paper](https://aclanthology.org/2026.vardial-1.4/), presented at VarDial 2026:
 
 ```
-@inproceedings{
-	author = {Nédey, Oriane and Bawden, Rachel and Clérice, Thibault and Sagot, Benoît},
-	title = {OcWikiDialects: A Wikipedia Dataset with Rich Metadata for Occitan Dialect Identification},
-	url = {TBA},
-	booktitle = {Proceedings of the 13th {Workshop} on {NLP} for {Similar} {Languages}, {Varieties} and {Dialects}},
-	year = {2026}
+@inproceedings{nedey-etal-2026-ocwikidialects,
+    title = "{O}c{W}iki{D}ialects: A {W}ikipedia Dataset With Rich Metadata for {O}ccitan Dialect Identification",
+    author = "N{\'e}dey, Oriane  and
+      Bawden, Rachel  and
+      Cl{\'e}rice, Thibault  and
+      Sagot, Beno{\^i}t",
+    editor = {Scherrer, Yves  and
+      Aepli, No{\"e}mi  and
+      Blaschke, Verena  and
+      Jauhiainen, Tommi  and
+      Ljube{\v{s}}i{\'c}, Nikola  and
+      Nakov, Preslav  and
+      Tiedemann, J{\"o}rg  and
+      Zampieri, Marcos},
+    booktitle = "Proceedings of the 13th Workshop on {NLP} for Similar Languages, Varieties and Dialects (VarDial 2026)",
+    month = mar,
+    year = "2026",
+    address = "Rabat, Morocco",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.vardial-1.4/",
+    doi = "10.18653/v1/2026.vardial-1.4",
+    pages = "45--57"
 }
 ```
 
 # Released assets
-We will release the OcWikiDialects dataset (JSONL + CSV splits) as well as the SVM, FastText and BERT models trained
-on the concatenated datasets without text preprocessing, and our custom FastText embedding model
-as assets in the [releases](https://github.com/DEFI-COLaF/OcWikiDialects/releases) page.
+The released dataset and models can be found in the assets of the GitHub [release](https://github.com/DEFI-COLaF/OcWikiDialects/releases/tag/v1.0).
+We released the OcWikiDialects dataset (JSONL + CSV splits) as well as the SVM, FastText and BERT models trained
+on the concatenated datasets without text preprocessing. Due to its size, our custom FastText embedding model 
+will be released at another location.
 
 # The OcWikiDialects dataset
 The OcWikiDialects dataset contains 7,247 articles, each split into paragraphs (57k in total) and into sentences (288k), for a total of approximately 4M tokens.
